@@ -94,20 +94,24 @@
     line-height: 48px;
     text-align: center;
 }
-#card .container .card-container{
+
+#card .container .card-container {
     margin-top: 40px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
+
 #card .container .card-container .main-card {
     text-align: center;
     width: 318px;
 }
-#card .container .card-container .main-card .main-cont{
+
+#card .container .card-container .main-card .main-cont {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
+
 #card .container .card-container .main-card .main-cont h3 {
     color: rgb(16, 16, 16);
     font-family: Work Sans;
@@ -147,9 +151,77 @@
 #card .container .card-container .card-img img {
     width: 100%;
 }
-.btn-center{
+
+.btn-center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 /* End Card Section */
+
+/* ============================================
+========        Start About Css         =======
+=============================================== */
+#about {
+    display: flex;
+}
+
+#about .about-img {
+    width: 50%;
+}
+
+#about .about-img img {
+    width: 100%;
+}
+
+#about .about-info {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-info-details {
+    width: 603px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.about-info-details h1 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.about-info-details p {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-align: center;
+}
+
+.about-info-details h3 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* ============================================
+========         End About Css          =======
+=============================================== */
