@@ -25,7 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 689px;
+    height: 700px;
     background: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url('../assets/hero-bg.png') center;
     background-size: cover;
     color: white;
@@ -61,3 +61,95 @@
     line-height: 21px;
     text-align: center;
 }
+
+/* Start Card Section */
+#card {
+    height: 916px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card .container {
+    width: 990px;
+    height: 559px;
+}
+
+#card .container .card-content {}
+
+#card .container .card-content h6 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+}
+
+#card .container .card-content h1 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+#card .container .card-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content:space-between;
+}
+#card .container .card-container .main-card {
+    text-align: center;
+    width: 318px;
+}
+#card .container .card-container .main-card .main-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#card .container .card-container .main-card .main-cont h3 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    width: 140px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 10px 24px 10px 24px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    margin: 10px auto;
+}
+
+#card .container .card-container .main-card .main-cont h4 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: center;
+}
+
+#card .container .card-container .main-card .main-cont p {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* #card .container .card-container .card-img{ 
+} */
+#card .container .card-container .card-img img {
+    width: 100%;
+}
+.btn-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* End Card Section */
