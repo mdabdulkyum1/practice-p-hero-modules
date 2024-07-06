@@ -1,5 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+.btn {
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: center;
+    border: none;
+    padding: 16px 26px 16px 26px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 689px;
+    background: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url('../assets/hero-bg.png') center;
+    background-size: cover;
+    color: white;
+}
+
+#hero .main {
+    width: 767px;
+    text-align: center;
+}
+
+#hero .main h5 {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+}
+
+#hero .main h1 {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+}
+
+#hero .main p {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
 }
