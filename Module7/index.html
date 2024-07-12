@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        ::selection{
+            color:rgb(255, 255, 255);
+            background:rgba(0, 128, 0, 0.766);
+        }
+         h1:hover{
+            color:green;
+         }
+         section{}
+         section .box-con{
+            width: 70%;
+            margin: 0 auto;
+            border: 2px solid green;
+            padding: 48px;
+            position: relative;
+         }
+         section .box-con .box{
+            height: 100px;
+            width: 100px;
+            background-color:lightblue;
+            margin: 24px;
+         }
+         section .box-con .box:nth-child(2n){
+            background:green;
+         }
+         section .box-con .box:nth-child(2n+1){
+            background:rgb(245, 60, 13);
+            
+         }
+         .red{
+            background-color: red;
+         }
+         .green{
+            background-color: rgb(0, 130, 37);
+         }
+         .blue{
+            cobackground-colorlor: rgb(0, 51, 255);
+         }
+         #width-100{
+            width: 100%;
+            background-color: yellow;
+            position: sticky;
+            top: 0;
+            z-index: -1;
+         }
+         #absolute{
+            position: absolute;
+            right: 0;
+            font-size: 20px;
+            color: white;
+            
+         }
+    </style>
+</head>
+<body>
+    <h1>Md Abdul Kyum</h1>
+    <button onclick="copun()">Get Offer</button>
+
+
+    <section>
+        <div class="box-con">
+            <div class="box " id="width-100">I'am sticky</div>
+            <div class="box" id="absolute">I am Absolute</div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </section>
+    <section>
+        <div class="box-con">
+            <div class="box " id="width-100">I'am sticky</div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        parseInt
+        function copun(){
+            alert("Your copun is: k52Zul5");
+        }
+    </script>
+</body>
+</html>
