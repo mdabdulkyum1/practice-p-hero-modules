@@ -1,0 +1,28 @@
+@media (max-width: 576px) { 
+    
+    .flex{
+        flex-direction: column;
+    }
+    .flex-container{
+        width: 100%;
+        background-color: red;
+    }
+    .flex-container-2{
+        width: 100%;
+    }
+    .simple-web .container{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .task3{ 
+        display:flex;
+        flex-direction:column;
+        gap: 50px;
+    }
+    .task4{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+ }
