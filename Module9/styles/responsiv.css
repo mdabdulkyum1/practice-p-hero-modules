@@ -1,0 +1,19 @@
+@media screen and (max-width: 576px) {
+
+    img{
+        width: 100%;
+    }
+    .collage{
+        width: 100%;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .collage-grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .in-row{
+        display: block;
+        width: 100%;
+    }
+}
