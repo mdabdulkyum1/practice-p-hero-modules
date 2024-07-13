@@ -16,4 +16,7 @@
         display: block;
         width: 100%;
     }
+    .simple-rsvi{
+        flex-direction: column;
+    }
 }

@@ -1,4 +1,6 @@
-
+.hide{
+    display: none;
+}
 .img-collage .row{
     height: 400px;
 }
@@ -36,4 +38,19 @@ img{
 }
 .collage-grid img{
     height:100%;
+}
+
+/* simple-rsvi ==========================================================
+==============================================simple-rsvi==========
+simple-rsvi===================simple-rsvi================================ */
+.simple-rsvi {
+    display: flex;
+    gap: 24px;
+    margin-top: 120px;
+}
+.simple-rsvi .left{
+    background-color: #078aba;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
 }
